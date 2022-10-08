@@ -1,0 +1,33 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.cart-summary-container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.total-heading {
+  color: #616e7c;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.total-value {
+  font-size: 25px;
+  color: #171f46;
+}
+.no-of-items-description {
+  color: #616e7c;
+  margin-bottom: 25px;
+}
+.checkout-button {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+}
